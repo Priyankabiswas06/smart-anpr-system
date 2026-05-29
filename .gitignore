@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Model weights (large files — download separately)
+*.pt
+*.onnx
+models/*.pt
+models/*.onnx
+
+# Data & outputs (optional: remove these lines to commit sample results)
+data/anpr.db
+data/*.csv
+output/annotated_*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
